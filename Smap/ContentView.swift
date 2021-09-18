@@ -34,7 +34,7 @@ struct ContentView: View {
                 }.edgesIgnoringSafeArea(.all)
                 List{
                     ForEach(places){ place in
-                        Text(place.name)
+                        NavigationLink(place.name, destination: DetailsView())
                     }
                 }
             }
