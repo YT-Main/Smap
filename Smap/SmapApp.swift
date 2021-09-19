@@ -1,3 +1,4 @@
+
 //
 //  SmapApp.swift
 //  Smap
@@ -9,6 +10,7 @@ import SwiftUI
 
 @main
 struct SmapApp: App {
+
     var body: some Scene {
         WindowGroup {
             ContentView()

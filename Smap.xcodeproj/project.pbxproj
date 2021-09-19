@@ -3,17 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		531DE4A226F6A8BE00F19F19 /* StreamChat in Frameworks */ = {isa = PBXBuildFile; productRef = 531DE4A126F6A8BE00F19F19 /* StreamChat */; };
+		531DE4D326F6E64C00F19F19 /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531DE4D226F6E64C00F19F19 /* CourseView.swift */; };
+		531DE4EE26F72F6500F19F19 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531DE4ED26F72F6500F19F19 /* ProfileView.swift */; };
+		5350147926F690B50030D800 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5350147826F690B50030D800 /* ContentView.swift */; };
 		53D91EDD26F55E7600A60B79 /* SmapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D91EDC26F55E7600A60B79 /* SmapApp.swift */; };
-		53D91EDF26F55E7600A60B79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D91EDE26F55E7600A60B79 /* ContentView.swift */; };
 		53D91EE126F55E7B00A60B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D91EE026F55E7B00A60B79 /* Assets.xcassets */; };
 		53D91EE426F55E7B00A60B79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D91EE326F55E7B00A60B79 /* Preview Assets.xcassets */; };
 		53D91EEF26F55E7B00A60B79 /* SmapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D91EEE26F55E7B00A60B79 /* SmapTests.swift */; };
 		53D91EFA26F55E7B00A60B79 /* SmapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D91EF926F55E7B00A60B79 /* SmapUITests.swift */; };
 		53D91F0B26F59A6300A60B79 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D91F0A26F59A6300A60B79 /* DetailsView.swift */; };
+		91ED75ED6B6A45F84FB50171 /* libPods-SmapTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E727C487CE35C7382434EB7A /* libPods-SmapTests.a */; };
+		EBA17DED3CD81C279083D009 /* Pods_Smap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B824D9DEE13376A1AF6BE9 /* Pods_Smap.framework */; };
+		FB00CD4B10AF2B071D083E3D /* libPods-SmapUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D53478D430E64337DCC587 /* libPods-SmapUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03B5DAA1B2542D3EBD3A6362 /* Pods-Smap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smap.debug.xcconfig"; path = "Target Support Files/Pods-Smap/Pods-Smap.debug.xcconfig"; sourceTree = "<group>"; };
+		13D53478D430E64337DCC587 /* libPods-SmapUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmapUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B824D9DEE13376A1AF6BE9 /* Pods_Smap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3541746D02777A4BA76C55 /* Pods-SmapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmapUITests.debug.xcconfig"; path = "Target Support Files/Pods-SmapUITests/Pods-SmapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1ED013AB3DF610F4276B62C4 /* Pods-SmapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmapUITests.release.xcconfig"; path = "Target Support Files/Pods-SmapUITests/Pods-SmapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		531DE4D226F6E64C00F19F19 /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
+		531DE4ED26F72F6500F19F19 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		5350147826F690B50030D800 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		53D91ED926F55E7600A60B79 /* Smap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53D91EDC26F55E7600A60B79 /* SmapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmapApp.swift; sourceTree = "<group>"; };
-		53D91EDE26F55E7600A60B79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		53D91EE026F55E7B00A60B79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53D91EE326F55E7B00A60B79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		53D91EE526F55E7B00A60B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +60,10 @@
 		53D91EF926F55E7B00A60B79 /* SmapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmapUITests.swift; sourceTree = "<group>"; };
 		53D91EFB26F55E7B00A60B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53D91F0A26F59A6300A60B79 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		648E03CEDD5E86406583AB77 /* Pods-SmapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmapTests.release.xcconfig"; path = "Target Support Files/Pods-SmapTests/Pods-SmapTests.release.xcconfig"; sourceTree = "<group>"; };
+		71F742F6F8244EFD5D69A3BF /* Pods-SmapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmapTests.debug.xcconfig"; path = "Target Support Files/Pods-SmapTests/Pods-SmapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		912B6B7A6D3AF259BE0C9CA0 /* Pods-Smap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smap.release.xcconfig"; path = "Target Support Files/Pods-Smap/Pods-Smap.release.xcconfig"; sourceTree = "<group>"; };
+		E727C487CE35C7382434EB7A /* libPods-SmapTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmapTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				531DE4A226F6A8BE00F19F19 /* StreamChat in Frameworks */,
+				EBA17DED3CD81C279083D009 /* Pods_Smap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91ED75ED6B6A45F84FB50171 /* libPods-SmapTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB00CD4B10AF2B071D083E3D /* libPods-SmapUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FAC00D006686317CDEC7FBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19B824D9DEE13376A1AF6BE9 /* Pods_Smap.framework */,
+				E727C487CE35C7382434EB7A /* libPods-SmapTests.a */,
+				13D53478D430E64337DCC587 /* libPods-SmapUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		328ADF8CB56FFD53353A02C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03B5DAA1B2542D3EBD3A6362 /* Pods-Smap.debug.xcconfig */,
+				912B6B7A6D3AF259BE0C9CA0 /* Pods-Smap.release.xcconfig */,
+				71F742F6F8244EFD5D69A3BF /* Pods-SmapTests.debug.xcconfig */,
+				648E03CEDD5E86406583AB77 /* Pods-SmapTests.release.xcconfig */,
+				1A3541746D02777A4BA76C55 /* Pods-SmapUITests.debug.xcconfig */,
+				1ED013AB3DF610F4276B62C4 /* Pods-SmapUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		53D91ED026F55E7600A60B79 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +125,8 @@
 				53D91EED26F55E7B00A60B79 /* SmapTests */,
 				53D91EF826F55E7B00A60B79 /* SmapUITests */,
 				53D91EDA26F55E7600A60B79 /* Products */,
+				328ADF8CB56FFD53353A02C7 /* Pods */,
+				1FAC00D006686317CDEC7FBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +144,10 @@
 			isa = PBXGroup;
 			children = (
 				53D91EDC26F55E7600A60B79 /* SmapApp.swift */,
-				53D91EDE26F55E7600A60B79 /* ContentView.swift */,
 				53D91F0A26F59A6300A60B79 /* DetailsView.swift */,
+				531DE4D226F6E64C00F19F19 /* CourseView.swift */,
+				531DE4ED26F72F6500F19F19 /* ProfileView.swift */,
+				5350147826F690B50030D800 /* ContentView.swift */,
 				53D91EE026F55E7B00A60B79 /* Assets.xcassets */,
 				53D91EE526F55E7B00A60B79 /* Info.plist */,
 				53D91EE226F55E7B00A60B79 /* Preview Content */,
@@ -140,15 +188,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53D91EFE26F55E7B00A60B79 /* Build configuration list for PBXNativeTarget "Smap" */;
 			buildPhases = (
+				B5190907C35F404EE09182BE /* [CP] Check Pods Manifest.lock */,
 				53D91ED526F55E7600A60B79 /* Sources */,
 				53D91ED626F55E7600A60B79 /* Frameworks */,
 				53D91ED726F55E7600A60B79 /* Resources */,
+				1C5FE43D2643A144FB37DC93 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Smap;
+			packageProductDependencies = (
+				531DE4A126F6A8BE00F19F19 /* StreamChat */,
+			);
 			productName = Smap;
 			productReference = 53D91ED926F55E7600A60B79 /* Smap.app */;
 			productType = "com.apple.product-type.application";
@@ -157,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53D91F0126F55E7B00A60B79 /* Build configuration list for PBXNativeTarget "SmapTests" */;
 			buildPhases = (
+				99465ADE8E89E3E643B51CED /* [CP] Check Pods Manifest.lock */,
 				53D91EE626F55E7B00A60B79 /* Sources */,
 				53D91EE726F55E7B00A60B79 /* Frameworks */,
 				53D91EE826F55E7B00A60B79 /* Resources */,
@@ -175,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53D91F0426F55E7B00A60B79 /* Build configuration list for PBXNativeTarget "SmapUITests" */;
 			buildPhases = (
+				74AC5CF13840CF1D29A578B7 /* [CP] Check Pods Manifest.lock */,
 				53D91EF126F55E7B00A60B79 /* Sources */,
 				53D91EF226F55E7B00A60B79 /* Frameworks */,
 				53D91EF326F55E7B00A60B79 /* Resources */,
@@ -220,6 +275,9 @@
 				Base,
 			);
 			mainGroup = 53D91ED026F55E7600A60B79;
+			packageReferences = (
+				531DE4A026F6A8BE00F19F19 /* XCRemoteSwiftPackageReference "stream-chat-swift" */,
+			);
 			productRefGroup = 53D91EDA26F55E7600A60B79 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,14 +315,102 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C5FE43D2643A144FB37DC93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smap/Pods-Smap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smap/Pods-Smap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Smap/Pods-Smap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74AC5CF13840CF1D29A578B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmapUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99465ADE8E89E3E643B51CED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmapTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5190907C35F404EE09182BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Smap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		53D91ED526F55E7600A60B79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53D91EDF26F55E7600A60B79 /* ContentView.swift in Sources */,
+				5350147926F690B50030D800 /* ContentView.swift in Sources */,
 				53D91EDD26F55E7600A60B79 /* SmapApp.swift in Sources */,
 				53D91F0B26F59A6300A60B79 /* DetailsView.swift in Sources */,
+				531DE4D326F6E64C00F19F19 /* CourseView.swift in Sources */,
+				531DE4EE26F72F6500F19F19 /* ProfileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +564,7 @@
 		};
 		53D91EFF26F55E7B00A60B79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03B5DAA1B2542D3EBD3A6362 /* Pods-Smap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -431,7 +578,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = yt.Smap;
+				PRODUCT_BUNDLE_IDENTIFIER = yt.smap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -440,6 +587,7 @@
 		};
 		53D91F0026F55E7B00A60B79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 912B6B7A6D3AF259BE0C9CA0 /* Pods-Smap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -453,7 +601,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = yt.Smap;
+				PRODUCT_BUNDLE_IDENTIFIER = yt.smap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -462,6 +610,7 @@
 		};
 		53D91F0226F55E7B00A60B79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71F742F6F8244EFD5D69A3BF /* Pods-SmapTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +633,7 @@
 		};
 		53D91F0326F55E7B00A60B79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 648E03CEDD5E86406583AB77 /* Pods-SmapTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +656,7 @@
 		};
 		53D91F0526F55E7B00A60B79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A3541746D02777A4BA76C55 /* Pods-SmapUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +677,7 @@
 		};
 		53D91F0626F55E7B00A60B79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ED013AB3DF610F4276B62C4 /* Pods-SmapUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -584,6 +736,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		531DE4A026F6A8BE00F19F19 /* XCRemoteSwiftPackageReference "stream-chat-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GetStream/stream-chat-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		531DE4A126F6A8BE00F19F19 /* StreamChat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 531DE4A026F6A8BE00F19F19 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChat;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 53D91ED126F55E7600A60B79 /* Project object */;
 }
